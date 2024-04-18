@@ -1,0 +1,37 @@
+.inputStyle {
+    width: 343px;
+    height: 56px;
+    padding: 15px 24px 15px 24px;
+    gap: 10px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    background: #e7fffd;
+    border: 3px solid #00a1a1;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    margin-left: 4px;
+  }
+  .inputContainer {
+    position: relative;
+  }
+  .inputContainer:hover {
+    border: none;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px; /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    background: none;
+  }
+  
+  .inputStyle {
+    padding-left: 30px; /* Adjust padding to accommodate the icon */
+    /* Add other input styles as needed */
+  }
+  
